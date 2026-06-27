@@ -4,6 +4,11 @@ A personal collection of React exercises, design patterns, and practical example
 
 This repository serves as my playground for experimenting with different React concepts, refining existing knowledge, and documenting useful solutions that I can reuse in future projects. Rather than building one complete application, each example focuses on a specific concept, pattern, or problem.
 
+> **⚠️ Note**
+> The source code in this repository is written without AI-generated implementations.
+> The purpose of this project is to strengthen my React skills through independent problem-solving and hands-on practice.
+> AI may only be used to improve documentation or grammar.
+
 ## 🎯 Goals
 
 - Explore React design patterns
