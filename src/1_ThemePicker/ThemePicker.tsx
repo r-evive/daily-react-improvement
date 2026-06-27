@@ -20,7 +20,7 @@ export const ThemePicker = () => {
     const { theme, toggleTheme } = useTheme()
 
     return (
-        <Exercise title="1. Theme picker" description="Simple hook to change app theme. On change theme is saved in local storage. Defined as hook design pattern.">
+        <Exercise title="1. Custom Theme Hook" description="Build a reusable custom hook for managing application theme, with persistent state stored in local storage.">
             <div className="flex flex-row w-full gap-4">
                 <div className="flex-0">
                     <Button variant="primary" onClick={toggleTheme}>Toggle theme</Button>

@@ -3,7 +3,7 @@ import { Accordion } from "./Accordion"
 
 export const AccordionExample = () => {
     return (
-        <Exercise title="3. Accordion" description="Example usage of compound design pattern">
+        <Exercise title="3. Compound Components Pattern" description="Create a flexible accordion API using the Compound Components pattern with shared context between parent and child components.">
             <div className="flex flex-row w-full gap-4 items-center justify-center">
                 <Accordion defaultValue="details">
                     <Accordion.Item tab="settings" header="Settings">

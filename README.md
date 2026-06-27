@@ -1,34 +1,39 @@
-# React + TypeScript + Vite
+# React Daily Improvement
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal collection of React exercises, design patterns, and practical examples focused on writing cleaner, more scalable, and maintainable applications.
 
-Currently, two official plugins are available:
+This repository serves as my playground for experimenting with different React concepts, refining existing knowledge, and documenting useful solutions that I can reuse in future projects. Rather than building one complete application, each example focuses on a specific concept, pattern, or problem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Goals
 
-## React Compiler
+- Explore React design patterns
+- Solve common React challenges
+- Build reusable and composable components
+- Experiment with modern React features
+- Improve code quality and architecture
+- Compare different approaches to solving the same problem
+- Create a collection of practical React examples
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 📚 Topics
 
-Note: This will impact Vite dev & build performances.
+Examples in this repository may cover:
 
-## Expanding the Oxlint configuration
+- Custom Hooks
+- Compound Components
+- Controlled & Uncontrolled Components
+- Component Composition
+- Context API
+- State Management
+- Performance Optimization
+- Async UI Patterns
+- React Rendering Behavior
+- Forms
+- TypeScript with React
+- Reusable UI Components
+- Best Practices
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 📈 About
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+This is an ongoing project that grows over time. New exercises, experiments, and design patterns are added regularly as I discover better solutions and new React features.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+The goal isn't to showcase a finished product, but to build a well-organized collection of practical React knowledge and reusable examples.

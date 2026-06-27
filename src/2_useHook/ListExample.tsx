@@ -26,7 +26,7 @@ export const ListExample = () => {
     const tasks = fetchTasks();
 
     return (
-    <Exercise title="2. Use hook" description="Example usage of use hook with Suspense component">
+    <Exercise title="2. React use() + Suspense" description="Fetch asynchronous data using React's use() hook together with Suspense for declarative loading states.">
         <div className="flex flex-row w-full gap-4 items-center justify-center">
             <Suspense fallback="Loading tasks...">
                 <List promise={tasks}/>
