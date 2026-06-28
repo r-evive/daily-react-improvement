@@ -2,6 +2,7 @@
 import { ThemePicker } from './1_ThemePicker/ThemePicker'
 import { ListExample } from './2_useHook/ListExample'
 import { AccordionExample } from './3_accordion/AccordionExample'
+import { GeoLocationExample } from './4_geoLocaiton/GeoLocationExample'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <ThemePicker/>
       <ListExample/>
       <AccordionExample/>
+      <GeoLocationExample />
     </div>
     </div>
   )
