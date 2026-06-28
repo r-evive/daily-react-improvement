@@ -1,6 +1,5 @@
-import { ArrowLeft, ArrowLeftCircle } from "lucide";
-import { ArrowLeftIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon } from "lucide-react";
-import { createContext, useContext, useState, type Dispatch, type PropsWithChildren, type ReactNode, type SetStateAction } from "react";
+import { ChevronDownIcon, ChevronUpIcon } from "lucide-react";
+import { createContext, useContext, useState, type Dispatch, type ReactNode, type SetStateAction } from "react";
 import { cn } from "../utils/utils";
 
 interface AccordionContextValue {

@@ -1,16 +1,16 @@
-import { useContext } from "react";
 import Button from "../shared/Button";
 import { Exercise } from "../shared/Exercise";
 import { cn } from "../utils/utils";
-import useTheme, { Theme } from "./useDarkMode"
-import { AccordionContext } from "../3_accordion/Accordion";
+import useTheme, { Theme } from "./useDarkMode";
 
 
 interface ThemeBlockProps {
     theme: Theme
 }
 
-const ThemeBlock = ({theme}: ThemeBlockProps) => {
+const ThemeBlock = ({theme}: ThemeBlockProps
+    
+) => {
     return <div className={cn('w-full h-10 flex items-center justify-center rounded-lg', theme === Theme.DARK ? 'bg-gray-600 text-white' : 'bg-stone-300 text-black')}>
         {theme === Theme.DARK ? 'DARK MODE' : 'WHITE MODE'}
     </div>
