@@ -7,18 +7,12 @@ interface AccordionContextValue {
     setValue: Dispatch<SetStateAction<string>>
 }
 
-
-const initialValue: AccordionContextValue = {
-    value: "",
-    setValue: () => {}
-}
-
-export const AccordionContext = createContext<AccordionContextValue>(initialValue)
-
 interface AccordionProps {
     defaultValue: string
     children: ReactNode
 }
+
+export const AccordionContext = createContext<AccordionContextValue | null>(null)
 
 export const Accordion = ({ defaultValue, children}: AccordionProps) => {
     const [value, setValue] = useState<string>(defaultValue)
