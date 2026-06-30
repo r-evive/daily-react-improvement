@@ -4,6 +4,7 @@ import { ListExample } from './2_useHook/ListExample'
 import { AccordionExample } from './3_accordion/AccordionExample'
 import { GeoLocationExample } from './4_geoLocaiton/GeoLocationExample'
 import { ItemCollectionsExample } from './5_itemCollections/ItemCollectionsExample'
+import { PreviousValueExample } from './6_previousValue/PreviousValueExample'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <AccordionExample/>
       <GeoLocationExample />
       <ItemCollectionsExample/>
+      <PreviousValueExample/>
     </div>
     </div>
   )
